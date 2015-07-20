@@ -3,3 +3,22 @@ When you initialize a repository it automaticlly creates for you a hidden .git f
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 The staging area is an area that is temporary between the repository and the working directory. In the staging area you can add a file to be ready for commit, or check the status of a file. The staging area is important because it's an intermediate working area for the files.
+
+Git commands:
+git log
+git commit -m “message”
+git commit
+git status
+git add file.ext
+git diff id-old id-new (between repository versions)
+git diff (between staging area and working directory)
+git diff --staged (between repository and staging area)
+subl file.ext (to open the file in the editor to update it)
+git reset --hard (resets all changes in the working directory and the staging area)
+
+How can you use the staging area to make sure you have one commit per logical change?
+The staging area can be used to make sure we have one change per logical change by adding the file to the staging area then coparing the file to the working directory and comparing it to the latest in the repository too. To compare the staging area to the working directory you use "git diff" and to compare the staging area to the repository you use  "git diff --staged"
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Branches would help in keeping differen versions of the code seperated to seperate differnt modes of functionality or to addd and remove specific features and have both versions of the code running.
+
