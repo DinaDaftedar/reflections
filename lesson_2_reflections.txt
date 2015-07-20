@@ -22,3 +22,6 @@ The staging area can be used to make sure we have one change per logical change 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 Branches would help in keeping differen versions of the code seperated to seperate differnt modes of functionality or to addd and remove specific features and have both versions of the code running.
 
+How do the diagrams help you visualize the branch structure?
+The diagram show the commits and the parents of each commit. It's very important if it's on a branch as the details show the changes in the branch and if the commit is not reachable it won't be visible in the "git log".
+
