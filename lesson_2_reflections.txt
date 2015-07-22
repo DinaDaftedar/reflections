@@ -25,3 +25,7 @@ Branches would help in keeping differen versions of the code seperated to sepera
 How do the diagrams help you visualize the branch structure?
 The diagram show the commits and the parents of each commit. It's very important if it's on a branch as the details show the changes in the branch and if the commit is not reachable it won't be visible in the "git log".
 
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+To merge two branches we checkout the branch we want to merge onto (keep its label), then we run the commang "git merge branchTo branchFrom". Then we delete the branch we merged from as we dont need the label for it anymore. 
+We can use the command "git log --graph --oneline" to display a diagram which can show us which files have been merged from which branch to which. Merging two branches results in adding the files in one branch to the files in the current branch.
+
