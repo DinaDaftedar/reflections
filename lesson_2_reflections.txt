@@ -29,3 +29,8 @@ What is the result of merging two branches together? Why do we represent it in t
 To merge two branches we checkout the branch we want to merge onto (keep its label), then we run the commang "git merge branchTo branchFrom". Then we delete the branch we merged from as we dont need the label for it anymore. 
 We can use the command "git log --graph --oneline" to display a diagram which can show us which files have been merged from which branch to which. Merging two branches results in adding the files in one branch to the files in the current branch.
 
+git log -n 1 -> gets the log for the last commit only
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Git can do automatic merging for you by just checking if a certain line has changed, it doesnt really check if both functions have the same meaning or not. It just compares the characters and the text in each line. Logically speakinhg it would be better if you merge manually as it helps you add or delete what you need. You can use the automatic merge to add the clear differnces automatically for you. Then you will need to ado a manual merge and add and remove what you see appropriate later.
+
