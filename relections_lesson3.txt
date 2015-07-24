@@ -4,4 +4,9 @@ A remoe repository is useful if you want to share your work with your team inste
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 Pulling changes manually gives you the chance to get the changes that you need only and not everything available on the remote repository, since there might be changes that we don't need on the remote repository.
 
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+Forks, they clone the repositories on GITHUB for you to be able to clone them locally. Forks can be used if you dont have permission to directly change the repository on Github, you would Fork it first then clone it to your PC where you can make your changes. You can then push those changes to your forked version of the repository.
 
+Clones, are used to either clone a repository from GitHub locally to your PC or to clone an existing repository from one place on your PC to another place on your PC too.
+
+Branches, are used to create a different path for you to commit changes to files that you don't want visible on your master version of your files.
