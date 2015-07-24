@@ -10,3 +10,7 @@ Forks, they clone the repositories on GITHUB for you to be able to clone them lo
 Clones, are used to either clone a repository from GitHub locally to your PC or to clone an existing repository from one place on your PC to another place on your PC too.
 
 Branches, are used to create a different path for you to commit changes to files that you don't want visible on your master version of your files.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+That would make it easier to see all the collaborations by all the contributors in the remote repository, to easily enable and limit the merging conflicts with the local repository. You can do a git pull which is equivalent to a git fetch then git merge.
+
